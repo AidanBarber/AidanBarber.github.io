@@ -4,23 +4,29 @@ body{
     background-color: #76d0d6;
 }
 
-.container {
-    position: relative;
-    width: 50%;
-    max-width: 300px;
-  }
 
-img{
+
+.square {
     border-radius: 115px;
-    padding: 10px;
+    margin: 10px;
+    padding: 0px;
+    overflow: hidden;
+    background: green;
+  
+}
+
+.gutter .col-md-4 {
+  background: #9c6;
+  border-right: 12px white solid;
 }
 
 .overlay {
     position: absolute;
-    bottom: 0;
+    bottom: 0px;
     background: rgb(0, 0, 0);
     background: rgba(0, 0, 0, 0.5); /* Black see-through */
     color: #f1f1f1;
+    margin: -10px;
     width: 100%;
     transition: .5s ease;
     opacity:0;
@@ -30,6 +36,6 @@ img{
     text-align: center;
   }
 
-  .container:hover .overlay {
+  .square:hover .overlay {
     opacity: 1;
   }
