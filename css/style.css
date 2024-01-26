@@ -1,0 +1,45 @@
+P {
+  display: block;
+  margin-left: 300px;
+  margin-right: auto;
+  max-width: 25%;
+  font-size: 20px;
+}
+
+h1 {
+  display: block;
+  margin-left: 300px;
+  margin-right: auto;
+  margin-top: 50px;
+  font-size: 30px;
+  text-decoration: none;
+}
+
+hr {
+  margin-left: 300px;
+  width: 25%;
+}
+
+.sidenav {
+  height: 100%;
+  width: 250px;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  left: 0;
+  background-color: white;
+  overflow-x: hidden;
+  padding-top: 125px;
+}
+
+.sidenav a {
+  padding: 6px 6px 6px 150px;
+  text-decoration: none;
+  font-size: 25px;
+  color: #818181;
+  display: block;
+}
+
+.sidenav a:hover {
+  color: black;
+}
