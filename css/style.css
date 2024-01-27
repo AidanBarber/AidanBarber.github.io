@@ -1,11 +1,11 @@
 p {
-  max-width: 25%;
   font-size: 20px;
 }
 .content {
   margin-left: 300px;
   margin-right: auto;
   float:left; /* add this */
+  max-width: 25%;
 }
 
 h1 {
