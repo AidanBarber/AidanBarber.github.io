@@ -2,15 +2,15 @@ p {
   font-size: 20px;
 }
 .content {
-  margin-left: 300px;
+  margin-left: 500px;
   margin-right: auto;
   float:left; /* add this */
-  max-width: 25%;
+  max-width: 650px;
 }
 
 h1 {
   display: block;
-  margin-left: 300px;
+  margin-left: 500px;
   margin-right: auto;
   margin-top: 50px;
   font-size: 30px;
@@ -18,13 +18,13 @@ h1 {
 }
 
 hr {
-  margin-left: 300px;
-  width: 25%;
+  margin-left: 500px;
+  width: 650px;
 }
 
 .sidenav {
   height: 100%;
-  width: 250px;
+  width: 500px;
   position: fixed;
   z-index: 1;
   top: 0;
@@ -35,7 +35,7 @@ hr {
 }
 
 .sidenav a {
-  padding: 6px 6px 6px 150px;
+  padding: 6px 6px 6px 300px;
   text-decoration: none;
   font-size: 25px;
   color: #818181;
